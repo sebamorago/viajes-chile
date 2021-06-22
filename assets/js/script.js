@@ -8,12 +8,11 @@ $(function () {
 })
 });
 
-//enviar a correo
-$(document).ready(function() {
-    $("#success-alert").hide();
-    $("#enviarCorreo").click(function showAlert() {
-      $("#success-alert").fadeTo(2000, 500).slideUp(500, function() {
-        $("#success-alert").slideUp(500);
-      });
-    });
+// titulos en rojos 
+$( document ).ready( function (){
+  $( "h2" ).click( function (){
+  $( this ).css({
+  "color" : "black" ,
+  });
+  });
   });
