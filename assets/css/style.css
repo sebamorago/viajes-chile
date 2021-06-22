@@ -2,3 +2,7 @@ body {
     background-color: black ;
     font-family: 'Raleway', sans-serif;
 }
+
+.card-img-top { 
+    height: 10em;
+}
